@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bi7gv7loenwwd"]
+
+[ext_resource type="Script" uid="uid://cb2mr72uvnqxn" path="res://SampleComponent.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node2D"]
+
+[node name="SampleComponent" type="Node" parent="."]
+script = ExtResource("1_ig7tw")
+weight = 9.8
+description = "An example component"
+metadata/_custom_type_script = "uid://cb2mr72uvnqxn"
